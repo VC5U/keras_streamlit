@@ -1,8 +1,8 @@
-tensorflow-cpu==2.15.0
 streamlit==1.38.0
-pillow
-numpy
-pandas
-plotly
-matplotlib
-seaborn
+tensorflow==2.15.0
+keras==2.15.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+plotly==5.23.0
+scikit-learn==1.5.2
