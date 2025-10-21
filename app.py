@@ -123,6 +123,12 @@ elif choice == "Administración":
     if st.button("Exportar CSV"):
         df.to_csv("predicciones.csv", index=False)
         st.success("CSV generado: predicciones.csv")
+    st.download_button(
+    label="📥 Descargar CSV",
+    data=df.to_csv(index=False).encode('utf-8'),
+    file_name="compras_filtradas.csv",
+    mime="text/csv"
+)
 
 # -----------------------------
 # Sección Analítica
