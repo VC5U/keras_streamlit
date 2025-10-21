@@ -3,6 +3,6 @@ tensorflow-cpu==2.15.0
 numpy==1.26.4
 pandas==2.2.2
 matplotlib==3.9.2
-seaborn==0.12.3
+seaborn==0.12.2
 plotly==5.23.0
 Pillow>=7.1.0,<11
