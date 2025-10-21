@@ -1,0 +1,8 @@
+tensorflow-cpu==2.15.0
+streamlit==1.38.0
+pillow
+numpy
+pandas
+plotly
+matplotlib
+seaborn
